@@ -23,20 +23,18 @@
     <div class="Container">
 
         <div class="left">
-            <!-- <i class="fas fa-bars"></i> -->
-
             <div class="container">
                 <div class="navbar">
                     <div class="heading">
-                        <a href="#hamburger-icon" onclick="gfgMenu()">
+                        <a href="#hamburger-icon" onclick="navMenu()">
                             <i class="fa fa-bars"></i>
                         </a>
 
                     </div>
                     <div class="links">
-                        <a href="#gfg1"> Home </a>
-                        <a href="#gfg2"> Categories </a>
-                        <a href="#gfg3"> Podcasts </a>
+                        <a href="/"> Home </a>
+                        <a href="/"> Categories </a>
+                        <a href="/"> Podcasts </a>
 
                     </div>
                 </div>
@@ -44,7 +42,7 @@
 
 
             <h2 class="logo-h1">
-                BookPod.
+                <a href="/" style="text-decoration:none; color:black">BookPod.</a>
 
             </h2>
 
@@ -213,14 +211,14 @@
     </div>
 
     <script>
-        function gfgMenu() {
-            const GFG = document.querySelector('.links');
+        function navMenu() {
+            const HAM = document.querySelector('.links');
 
-            if (GFG.style.display === "none") {
-                GFG.style.display = "block";
+            if (HAM.style.display === "none") {
+                HAM.style.display = "block";
             }
             else {
-                GFG.style.display = "none";
+                HAM.style.display = "none";
             }
         }
     </script>

@@ -39,7 +39,11 @@
 
 
 
-
+@media (min-width: 441px) {
+.fa-bars{
+    display: none;
+}
+}
 
 
 

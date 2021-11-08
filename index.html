@@ -21,10 +21,28 @@
 <body>
 
     <div class="Container">
-        <!-- <div<i class="fas fa-bars"></i><i class="fa fa-bar"></i>
-    </div> -->
+
         <div class="left">
-            <i class="fas fa-bars"></i>
+            <!-- <i class="fas fa-bars"></i> -->
+
+            <div class="container">
+                <div class="navbar">
+                    <div class="heading">
+                        <a href="#hamburger-icon" onclick="gfgMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+
+                    </div>
+                    <div class="links">
+                        <a href="#gfg1"> Home </a>
+                        <a href="#gfg2"> Categories </a>
+                        <a href="#gfg3"> Podcasts </a>
+
+                    </div>
+                </div>
+            </div>
+
+
             <h2 class="logo-h1">
                 BookPod.
 
@@ -194,17 +212,17 @@
 
     </div>
 
-
     <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
+        function gfgMenu() {
+            const GFG = document.querySelector('.links');
+
+            if (GFG.style.display === "none") {
+                GFG.style.display = "block";
+            }
+            else {
+                GFG.style.display = "none";
             }
         }
-    </script>
     </script>
 
 

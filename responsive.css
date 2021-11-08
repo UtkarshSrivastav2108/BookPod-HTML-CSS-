@@ -243,3 +243,38 @@ height: 150px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    background: white;
+    position: relative;
+}
+
+.links {
+    display: none;
+}
+
+
+
+
+
+
+.links a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+

@@ -2,7 +2,7 @@
 
 *{
     margin:0;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Arvo', serif;
 
 }
 
@@ -203,6 +203,7 @@ font-weight: 800;
     color: white;
     padding-top: 50px;
     padding-bottom: 90px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .author-img{
@@ -223,6 +224,14 @@ font-weight: 800;
    padding:  10px 100px;
 
 }
+
+
+.author-container-certain-class-h1{
+
+    font-family: 'Roboto', sans-serif;
+ 
+ }
+ 
 
 
 
